@@ -1,7 +1,4 @@
 ---
-# Making sure to use Java 8
-- include_tasks: ../tests/java-8.yml
-
 # Variable setup.
 - name: Include OS-Specific variables
   include_vars: "{{ ansible_os_family }}.yml"
