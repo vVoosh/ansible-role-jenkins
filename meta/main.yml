@@ -1,10 +1,4 @@
 ---
-# Making sure to use Java 8
-- include_tasks: ../tests/java-8.yml
-
-dependencies:
-  - geerlingguy.java
-
 galaxy_info:
   author: geerlingguy
   description: Jenkins CI
