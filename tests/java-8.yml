@@ -17,6 +17,11 @@
   when: ansible_os_family == 'Debian'
   changed_when: false
 
+- name: Remove Java 7
+  package:
+    name: java-1.7.0-openjdk
+    state: absent
+
 # See: http://unix.stackexchange.com/a/342469
 - name: Install dependencies.
   apt:
